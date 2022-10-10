@@ -17,13 +17,16 @@ from xml.dom.minidom import Document
 from django.conf import settings
 from django.contrib import admin
 from django.urls import path
-from firstAPPE1.views import index
+from firstAPPE1.views import index, proyecto1, proyecto2, proyecto3
 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index),
+    path('p1/', proyecto1),
+    path('p2/', proyecto2),
+    path('p3/', proyecto3),
 ]
 
 

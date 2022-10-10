@@ -30,25 +30,25 @@ def proyecto2(request):
     data = {
         "foto":"/static/img/NOS.jpg",
         "nombre":"NOS-TIC",
-        "detalles":"",
-        "cliente": "",
-        "fecha":"",
-        "tiempo":"",
-        "ubicacion":"",
-        "estado":""
+        "detalles":"Propuesta para nueva farmacia moderna",
+        "cliente": "Dario Buena Salud",
+        "fecha":"30 de octubre de 2019",
+        "tiempo":"7 meses y 18 días",
+        "ubicacion":"Cerca de donde murio Colón",
+        "estado":"Activo"
     }
     return render (request,'template.html',data)
 
 def proyecto3(request):
     data = {
-        "foto":"",
-        "nombre":"",
-        "detalles":"",
-        "cliente": "",
-        "fecha":"",
-        "tiempo":"",
-        "ubicacion":"",
-        "estado":""
+        "foto":"/static/img/LIMON.jpg",
+        "nombre":"Limon Brunch",
+        "detalles":"Nuevo restaurante, en el cual puedes hacer reservas por la pagina web que ellos mantienen",
+        "cliente": "Patricia Cid",
+        "fecha":"18 de septiembre 2021",
+        "tiempo":"4 meses",
+        "ubicacion":"Galicia, España",
+        "estado":"Activo"
     }
     return render (request,'template.html',data)    
 
